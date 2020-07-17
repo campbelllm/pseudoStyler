@@ -1,0 +1,21 @@
+.red {
+    background: red;
+    height: 250px;
+    width: 250px;
+}
+
+.red:hover {
+     background: blue;
+}
+
+.link:visited{
+    color: grey;
+}
+
+input:default {
+    box-shadow: 0 0 2px 1px coral;
+  }
+  
+  input:default + label {
+    color: coral;
+  }
